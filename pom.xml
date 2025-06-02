@@ -17,17 +17,6 @@
   </dependencies>
   <build>
     <plugins>
-      <!-- Plugin to run Java classes -->
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>3.1.0</version>
-        <configuration>
-          <mainClass>com.example.Main</mainClass>
-        </configuration>
-      </plugin>
-
-      <!-- Compiler Plugin to compile the source code -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
